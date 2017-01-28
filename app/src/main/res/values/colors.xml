@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#cacee1</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for the Recents Activity -->
+    <color name="category_recents">#e1deda</color>
+
+    <!-- Background color for the Playlist Activity -->
+    <color name="category_playlists">#f4c68e</color>
+
+    <!-- Background color for the Artists activity-->
+    <color name="category_artists">#a7d5a7</color>
+
+    <!-- Background color for the Albums Activity -->
+    <color name="category_albums">#e8caee</color>
+
+    <!-- Background color for the Search Activity -->
+    <color name="category_search">#b7f4ff</color>
+
+    Color of chosen activity button
+    <color name="button_chosen">#dbe9ec</color>
 </resources>

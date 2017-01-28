@@ -21,11 +21,8 @@
         <activity
             android:name=".ArtistActivity"
             android:label="Artists" />
-        <activity
-            android:name=".GenresActivity"
-            android:label="Genres" />
         <activity android:name=".AlbumsActivity" />
-        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".SearchActivity" />
     </application>
 
 </manifest>
