@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="search_title">Search</string>
+    <!--Activity Titles-->
+    <string name="recents_activity_title">Recents</string>
+    <string name="playlist_activity_title">Playlist</string>
+    <string name="artist_activity_title">Artists</string>
+    <string name="albums_activity_title">Albums</string>
+    <string name="genres_activity_title">Genres</string>
+    <!--Activities texts-->
+    <string name="home_screen_text">Music Player is an app that fetches the music on the user\'s phone storage.  It has basic functionality and no bells and whistles. </string>
+    <string name="home_screen_text2">Each activity will have a Search function for which I\'ll need a SearchView view and a search interface as described in: http://bit.ly/2kzlnet  </string>
+    <string name="playlist_text">There\'s playlists for "Recently Added", "Most Played", "Recently Played" and a user\'s custom built playlist </string>
+    <string name="artists_text">This activity displays a list of Artists in the Music Player app.  It uses the android.widget.BaseAdapter class to efficiently map the artist list to a ListView. This class and view are both things we haven\'t seen yet.  I\'m getting most of the info for this app from http://bit.ly/2jD9MXq  </string>
+    <string name="albums_text">This will have a list of albums</string>
+    <string name="genres_text">This will have a list of genres</string>
+    <string name="search_text">This is a SearchView</string>
+</resources>
