@@ -1,18 +1,18 @@
 <resources>
     <string name="app_name">Music Player</string>
     <string name="search_title">Search</string>
+
     <!--Activity Titles-->
     <string name="recents_activity_title">Recents</string>
     <string name="playlist_activity_title">Playlist</string>
     <string name="artist_activity_title">Artists</string>
     <string name="albums_activity_title">Albums</string>
-    <string name="genres_activity_title">Genres</string>
+
     <!--Activities texts-->
-    <string name="home_screen_text">Music Player is an app that fetches the music on the user\'s phone storage.  It has basic functionality and no bells and whistles. </string>
-    <string name="home_screen_text2">Each activity will have a Search function for which I\'ll need a SearchView view and a search interface as described in: http://bit.ly/2kzlnet  </string>
-    <string name="playlist_text">There\'s playlists for "Recently Added", "Most Played", "Recently Played" and a user\'s custom built playlist </string>
-    <string name="artists_text">This activity displays a list of Artists in the Music Player app.  It uses the android.widget.BaseAdapter class to efficiently map the artist list to a ListView. This class and view are both things we haven\'t seen yet.  I\'m getting most of the info for this app from http://bit.ly/2jD9MXq  </string>
-    <string name="albums_text">This will have a list of albums</string>
-    <string name="genres_text">This will have a list of genres</string>
-    <string name="search_text">This is a SearchView</string>
+    <string name="home_screen_text">Music Player is an app that fetches the music on the user\'s phone storage. The default view is the Recents activity.  It will have a list of a few recent songs in one TextView; a few recent playlists in another TextView, a few recent Artists in another TextView; a few recent Albums in a TextView.  </string>
+    <string name="home_screen_text2"> When opening the app, the user will be prompted to allow permission for the app to search for music on the device. As explained in the MediaPlayer class/api guide, http://bit.ly/2kdhYkB, there changes made in the manifest file. Always present in the app will be a set of controls for basic music playback, like play, pause, fastforward and reverse. We will need use of the MediaPlayer, MediaController, Service class to allow for this functionality. There is a good explanation here: http://bit.ly/2kDz7Rg</string>
+    <string name="playlist_text">There\'s a playlists for "Recently Added", "Most Played", "Recently Played" and a user\'s custom built playlist. For the custom list name there will be a prompt to a small window for the input.  There will need to be reference to AlertDialog.Builder class as explained here: http://bit.ly/2kDz7Rg</string>
+    <string name="artists_text">This activity displays a list of Artists in the Music Player app.  It uses the android.widget.BaseAdapter class to efficiently map the artist list to a ListView. This class and view are both things we haven\'t seen yet.  To make a ListView work properly I will need to understand and use the Adapters class as explained here: http://bit.ly/2kdt4X2 </string>
+    <string name="albums_text">This will have a ListView of albums that the user has in the phones storage. As explained in the Artists section, I need to use the Adapters class for the ListView.  It will be listed alphabetically.  I will need to use a sort method as explained here: http://bit.ly/2kDuhDJ </string>
+    <string name="search_text">This is a SearchView where the user will be able to quickly search for items such as artist, album, playlist, etc. There will be a quick way of choosing what type of thing you are searching for.  Possibly a checkbox for artist, album, playlist. I will need to make a search interface as explained here: http://bit.ly/2kzlnet </string>
 </resources>
